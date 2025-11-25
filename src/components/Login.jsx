@@ -75,6 +75,7 @@ export default function Login() {
 
     }
 
+    //Validasyonlar
     useEffect(() => {
         if (validateEmail(formData.email) &&
             validatePassword(formData.password) &&
